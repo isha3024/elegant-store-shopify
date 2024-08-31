@@ -648,10 +648,10 @@ h3 .icon-arrow,
   height: 20px;
 }
 
-.svg-wrapper > svg {
+/* .svg-wrapper > svg {
   height: 100%;
   width: 100%;
-}
+} */
 
 /* base-details-summary */
 summary {
