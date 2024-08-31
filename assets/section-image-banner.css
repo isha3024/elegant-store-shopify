@@ -425,6 +425,7 @@
     max-width: 46rem;
     min-width: 30rem;
     border: none;
+    background-color: transparent;
   }
 }
 
