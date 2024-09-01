@@ -40,6 +40,9 @@
               class="announcement-bar__link link link--text focus-inset animate-arrow"
             >
           {%- endif -%}
+          {% if section.settings.custom_liquid %}
+            {{ section.settings.custom_liquid }}
+          {% endif %}
           <p class="announcement-bar__message h5">
             <span>{{ section.blocks.first.settings.text | escape }}</span>
             {%- if section.blocks.first.settings.link != blank -%}
@@ -101,9 +104,6 @@
                         class="announcement-bar__link link link--text focus-inset animate-arrow"
                       >
                     {%- endif -%}
-                    {% if section.settings.custom_liquid %}
-                      {{ section.settings.custom_liquid }}
-                    {% endif %}
                     <p class="announcement-bar__message h5">
                       <span>{{ block.settings.text | escape }}</span>
                       {%- if block.settings.link != blank -%}
