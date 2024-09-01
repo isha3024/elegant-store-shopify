@@ -13,7 +13,11 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} isolate gradient">
-  <div class="hero__banner section-{{ section.id }}-padding"></div>
+  <div
+    class="hero__banner section-{{ section.id }}-padding"
+    id="collection-{{ section.id }}"
+    data-id="{{ section.id }}"
+  ></div>
 </div>
 
 {% schema %}
