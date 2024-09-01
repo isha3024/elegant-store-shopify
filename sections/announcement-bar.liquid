@@ -53,11 +53,6 @@
             </a>
           {%- endif -%}
         {%- endif -%}
-        {% if section.settings.show_close_icon %}
-          <div class="announcementBar_closeIcon" id="show_close_icon">
-            {{- 'icon-close-small.svg' | inline_asset_content -}}
-          </div>
-        {% endif %}
       </div>
     {%- elsif section.blocks.size > 1 -%}
       <slideshow-component
@@ -234,12 +229,6 @@
       "id": "enable_country_selector",
       "default": false,
       "label": "t:sections.announcement-bar.settings.enable_country_selector.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_close_icon",
-      "default": false,
-      "label": "Show Close Icon"
     },
     {
       "type": "liquid",
