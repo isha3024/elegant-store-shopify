@@ -14,16 +14,40 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "image_EWiq9x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo-White.png",
+            "image_width": 100,
+            "alignment": ""
+          }
+        },
         "link_list_FA7cKW": {
           "type": "link_list",
           "settings": {
             "heading": "Page",
             "menu": "footer"
           }
+        },
+        "link_list_KCbPAn": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Info",
+            "menu": "footer-info-link"
+          }
+        },
+        "brand_information_EmFDRV": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
         }
       },
       "block_order": [
-        "link_list_FA7cKW"
+        "image_EWiq9x",
+        "link_list_FA7cKW",
+        "link_list_KCbPAn",
+        "brand_information_EmFDRV"
       ],
       "settings": {
         "color_scheme": "scheme-4",
