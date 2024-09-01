@@ -2261,6 +2261,7 @@ input[type="checkbox"] {
   height: 100%;
   justify-content: center;
   align-items: center;
+  gap: 7px;
 }
 
 .announcement-bar__link:hover {
