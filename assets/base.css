@@ -2174,12 +2174,6 @@ input[type="checkbox"] {
     width: fit-content;
     margin: auto;
   }
-
-  .announcementBar_closeIcon {
-    position: absolute;
-    top: 3%;
-    right: 10%;
-  }
 }
 
 .announcement-bar,
