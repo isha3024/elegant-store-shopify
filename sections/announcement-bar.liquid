@@ -53,6 +53,11 @@
             </a>
           {%- endif -%}
         {%- endif -%}
+        {% if section.settings.show_close_icon %}
+          <div class="announcementBar_closeIcon" id="show_close_icon">
+            {{- 'icon-close-small.svg' | inline_asset_content -}}
+          </div>
+        {% endif %}
       </div>
     {%- elsif section.blocks.size > 1 -%}
       <slideshow-component
