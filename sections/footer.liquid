@@ -149,6 +149,9 @@
                           {% if block.settings.brand_tagline %}
                             <p class="body rte brand-tagline">{{ block.settings.brand_tagline }}</p>
                           {% endif %}
+                          {%- if block.settings.show_social_icons and has_social_icons -%}
+                            {%- render 'social-icons', class: 'footer__list-social' -%}
+                          {%- endif -%}
                         </div>
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
