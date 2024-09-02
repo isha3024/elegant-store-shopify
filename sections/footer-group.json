@@ -25,7 +25,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Logo-White.png",
             "image_width": 100,
-            "alignment": ""
+            "alignment": "",
+            "brand_tagline": "More than just a game. It’s a lifestyle."
           }
         },
         "link_list_FA7cKW": {
