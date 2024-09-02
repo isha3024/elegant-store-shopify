@@ -10,9 +10,9 @@
     margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
   }
 
-  .brand-tagline {
+  /* .brand-tagline {
     width: 100%;
-  }
+  } */
 
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -113,8 +113,11 @@
                         -%}
                         <div
                           class="footer-block__image-wrapper"
+                          <!--
                           style="max-width: min(100%, {{ settings.brand_image_width }}px);"
+                          --
                         >
+                          >
                           {{
                             settings.brand_image
                             | image_url: width: 1100
