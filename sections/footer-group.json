@@ -20,7 +20,8 @@
             "image": "shopify:\/\/shop_images\/Logo-White.png",
             "image_width": 100,
             "alignment": "",
-            "brand_tagline": "More than just a game. It’s a lifestyle."
+            "brand_tagline": "More than just a game. It’s a lifestyle.",
+            "show_social_icons": true
           }
         },
         "link_list_FA7cKW": {
@@ -36,12 +37,20 @@
             "heading": "Info",
             "menu": "footer-info-link"
           }
+        },
+        "text_UFFidc": {
+          "type": "text",
+          "settings": {
+            "heading": "Office",
+            "subtext": "<p>43111 Hai Trieu street,<br\/>District 1, HCMC,<br\/>Vietnam<br\/><br\/><a href=\"tel:84-756-3237\" title=\"tel:84-756-3237\">84-756-3237<\/a><\/p>"
+          }
         }
       },
       "block_order": [
         "image_EWiq9x",
         "link_list_FA7cKW",
-        "link_list_KCbPAn"
+        "link_list_KCbPAn",
+        "text_UFFidc"
       ],
       "settings": {
         "color_scheme": "scheme-4",
