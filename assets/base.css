@@ -2843,8 +2843,9 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item:hover span {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+  /* text-decoration: underline;
+  text-underline-offset: 0.3rem; */
+  font-weight: 600;
 }
 
 details[open] > .header__menu-item {
