@@ -14,12 +14,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "brand_information_EmFDRV": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
-          }
-        },
         "image_EWiq9x": {
           "type": "image",
           "settings": {
@@ -27,6 +21,12 @@
             "image_width": 100,
             "alignment": "",
             "brand_tagline": "More than just a game. It’s a lifestyle."
+          }
+        },
+        "brand_information_EmFDRV": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
           }
         },
         "link_list_FA7cKW": {
@@ -45,8 +45,8 @@
         }
       },
       "block_order": [
-        "brand_information_EmFDRV",
         "image_EWiq9x",
+        "brand_information_EmFDRV",
         "link_list_FA7cKW",
         "link_list_KCbPAn"
       ],
