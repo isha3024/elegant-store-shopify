@@ -23,12 +23,6 @@
             "brand_tagline": "More than just a game. It’s a lifestyle."
           }
         },
-        "brand_information_EmFDRV": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
-          }
-        },
         "link_list_FA7cKW": {
           "type": "link_list",
           "settings": {
@@ -46,7 +40,6 @@
       },
       "block_order": [
         "image_EWiq9x",
-        "brand_information_EmFDRV",
         "link_list_FA7cKW",
         "link_list_KCbPAn"
       ],
